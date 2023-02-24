@@ -5,7 +5,7 @@ public class TwoArraySum {
   public static void main(String[] args) {
 
     // create Scanner class object
-    Scanner scan = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
     // take number of elements in both array
     System.out.print("Enter number of elements in first array: ");
@@ -28,13 +28,13 @@ public class TwoArraySum {
     // take input for array1 elements
     System.out.println("Enter first array elements: ");
     for (int i=0; i<array1.length; i++) {
-      array1[i] = scan.nextInt();
+      array1[i] = scanner.nextInt();
     }
 
     // take input for array2 elements
     System.out.println("Enter second array elements: ");
     for (int i=0; i<array2.length; i++) {
-      array2[i] = scan.nextInt();
+      array2[i] = scanner.nextInt();
     }
 
     // loop to iterate through the array
